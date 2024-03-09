@@ -1,0 +1,24 @@
+{
+  "name": "master-tracker",
+  "version": "4.0.0",
+  "description": "ARG Master Tracker wiki",
+  "main": "discord-bot.ts",
+  "scripts": {
+    "register-commands": "zx ./register-commands.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeamOm3ga/master-tracker.git"
+  },
+  "author": "RetroCraft",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TeamOm3ga/master-tracker/issues"
+  },
+  "homepage": "https://github.com/TeamOm3ga/master-tracker#readme",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "zx": "^7.2.3"
+  }
+}
